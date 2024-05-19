@@ -1,5 +1,1 @@
-export const regexToString = (regex: RegExp): string => {
-    const pattern = regex.source
-    const escapedPattern = pattern.replace("/\\/g", '\\\\')
-    return `^${escapedPattern}$`
-}
+export const stringToRegex = (regex: string): RegExp => new RegExp(regex)

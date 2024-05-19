@@ -1,4 +1,2 @@
-export * from "./constance.message";
-export * from "./regex";
-export * from "./string-validate.message";
-
+export * from './message'
+export * from './strings'
